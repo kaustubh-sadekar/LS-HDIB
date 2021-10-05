@@ -18,7 +18,7 @@ Handwritten document image binarization is challenging due to high variability i
 # Dataset Details
 
 <div style="text-align:center">
-    <img src="{{ site.baseurl }}/media/bd.png" />
+    <img src="{{ site.baseurl }}/media/bd-1.png" />
 </div>
 >  Block schematic of the proposed method for generating LS-HDIB dataset.
 
@@ -41,7 +41,7 @@ Handwritten document image binarization is challenging due to high variability i
 # Results 
 
 <div style="text-align:center">
-    <img src="{{ site.baseurl }}/media/hist.png" />
+    <img src="{{ site.baseurl }}/media/hist-1.png" />
 </div>
 >  Quantitative comparison of performance of all the eight segmentation models over the three different test datasets when trained under Regime 1 (Blue), Regime 2 (Orange) and Regime 3 (Green).
 
@@ -61,7 +61,7 @@ Handwritten document image binarization is challenging due to high variability i
 >  Qualitative result on the Palm Leaf Manuscript dataset.
 
 <div style="text-align:center">
-    <img src="{{ site.baseurl }}/media/test_trend.png" />
+    <img src="{{ site.baseurl }}/media/test_trend-1.png" />
 </div>
 >  Effect of varying dataset size on the model performance evaluated over the three test datasets.
 
