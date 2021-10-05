@@ -1,6 +1,6 @@
 theme: minima
-title: Shadow Art Revisited
-description: A Differentiable Rendering Based Approach
+title: LS-HDIB Dataset
+description: A Large Scale Handwritten Document Image Binarization Dataset
 
 header_pages:
   about.md
