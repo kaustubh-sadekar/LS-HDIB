@@ -1,0 +1,6 @@
+theme: minima
+title: Shadow Art Revisited
+description: A Differentiable Rendering Based Approach
+
+header_pages:
+  about.md
