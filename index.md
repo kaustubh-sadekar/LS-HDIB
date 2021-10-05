@@ -11,24 +11,15 @@ Handwritten document image binarization is challenging due to high variability i
 
 # Results
 
-<!-- <div style="text-align:center">
+<div style="text-align:center">
     <img src="{{ site.baseurl }}/media/teaser.png" />
 </div>
-
-> Shadow art sculptures generated using differentiable rendering casting the shadows of (a) WACV acronym on one plane and fishes on the other resembling an aquarium of floating objects, (b) dropping Heart, Duck, and Mickey (all on the same plane), and (c) face sketches using half-toned images. (d) 3D reconstruction of a car from hand drawn sketches.
-
+> A few samples of handwritten document imagesobtained from the proposed LS-HDIB dataset with accurateground truths of the segmented foreground content obtainedusing our dataset generation method
 
 <div style="text-align:center">
-    <img src="{{ site.baseurl }}/media/sketches.png" />
+    <img src="{{ site.baseurl }}/media/bd.pdf" />
 </div>
->  A seemingly random voxel soup creates three distinct shadow images of (a) Albert Einstein, Nikola Tesla, and APJ Abdul Kalam, (b) Minions, and (c) Ironman
-
-
-<div style="text-align:center">
-    <img src="{{ site.baseurl }}/media/objects.png" />
-</div>
-
-> 3D reconstruction of (a) flower vase, (b) pen-stand, and (c) coffee mug using the associated hand drawn sketches from three different views. -->
+>  Block schematic of the proposed method for generating LS-HDIB dataset.
 
 # Acknowledgments
 This research was supported by Science and Engineering Research Board (SERB) IMPacting Research INnovation and Technology (IMPRINT)-2 grant.
