@@ -16,4 +16,4 @@ pip install -r requirements.txt
 python run.py cpu input_2.jpg unet_best_weights.pth
 ```
 
-For better understanding of the input arguments type `python run.py -h`
+*For better understanding of the input arguments type `python run.py -h`*
