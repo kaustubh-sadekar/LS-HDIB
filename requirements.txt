@@ -1,0 +1,9 @@
+matplotlib==3.4.2
+natsort==7.1.1
+numpy==1.19.2
+opencv_contrib_python==4.5.1.48
+segmentation_models_pytorch==0.2.0
+torch==1.8.1
+torchvision==0.9.1
+tqdm==4.50.2
+vcam==1.0
