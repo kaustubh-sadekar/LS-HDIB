@@ -66,9 +66,26 @@ Handwritten document image binarization is challenging due to high variability i
 >  Effect of varying dataset size on the model performance evaluated over the three test datasets.
 
 
+# Citation
+
+If you would like to cite us, kindly use the following BibTeX entry.
+
+```
+@InProceedings{Sadekar_2022_WACV,
+    author    = {Sadekar, Kaustubh and Tiwari, Ashish and Raman, Shanmuganathan},
+    title     = {Shadow Art Revisited: A Differentiable Rendering Based Approach},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2022},
+    pages     = {29-37}
+}
+```
+
 # Acknowledgments
 This research was supported by Science and Engineering Research Board (SERB) IMPacting Research INnovation and Technology (IMPRINT)-2 grant.
 
 # Contact
 
 Feel free to contact <a href="https://kaustubh-sadekar.github.io/" target="_blank">Kaustubh Sadekar</a>, <a href="https://www.linkedin.com/in/ashish-tiwari-82a392135/" target="_blank">Ashish Tiwari</a> or  <a href="https://prajwalsingh.github.io/" target="_blank">Prajwal Singh</a> for any further discussion about our work.
+
+*Project page template inspired from [GradSLAM](https://gradslam.github.io/).*
