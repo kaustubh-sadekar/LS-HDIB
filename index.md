@@ -5,6 +5,8 @@ layout: default
 # LS-HDIB: A Large Scale Handwritten Document Image Binarization Dataset
 <a href="https://kaustubh-sadekar.github.io/" target="_blank">Kaustubh Sadekar</a>, <a href="https://www.linkedin.com/in/ashish-tiwari-82a392135/" target="_blank">Ashish Tiwari</a>, <a href="https://prajwalsingh.github.io/" target="_blank">Prajwal Singh</a>, <a href="https://people.iitgn.ac.in/~shanmuga/index.html" target="_blank">Shanmuganathan Raman</a>
 
+Preprint available on <a href="https://arxiv.org/abs/2101.11674" target="_blank">arxiv</a>. **Accepted in ICPR 2022**.
+
 # Abstract
 
 Handwritten document image binarization is challenging due to high variability in the written content and complex background attributes such as page style, paper quality, stains, shadow gradients, and non-uniform illumination. While the traditional thresholding methods do not effectively generalize on such challenging real-world scenarios, deep learning-based methods have performed relatively well when provided with sufficient training data. However, the existing datasets are limited in size and diversity. This work proposes LS-HDIB - a large-scale handwritten document image binarization dataset containing over a million document images that span numerous real-world scenarios. Additionally, we introduce a novel technique that uses a combination of adaptive thresholding and seamless cloning methods to create the dataset with accurate ground truths. Through an extensive quantitative and qualitative evaluation over eight different segmentation models, we demonstrate the enhancement in the performance of the deep networks when trained on the LS-HDIB dataset and tested on unseen images.
@@ -71,13 +73,13 @@ Handwritten document image binarization is challenging due to high variability i
 If you would like to cite us, kindly use the following BibTeX entry.
 
 ```
-@InProceedings{Sadekar_2022_WACV,
-    author    = {Sadekar, Kaustubh and Tiwari, Ashish and Raman, Shanmuganathan},
-    title     = {Shadow Art Revisited: A Differentiable Rendering Based Approach},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2022},
-    pages     = {29-37}
+@misc{lshdib,
+  author = {Sadekar, Kaustubh and Tiwari, Ashish and Singh, Prajwal and Raman, Shanmuganathan},
+  title = {LS-HDIB: A Large Scale Handwritten Document Image Binarization Dataset},
+  publisher = {arXiv},
+  year = {2021},
+  copyright = {Creative Commons Attribution 4.0 International}
+  doi = {10.48550/ARXIV.2101.11674},
 }
 ```
 
