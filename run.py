@@ -20,6 +20,7 @@ import segmentation_models_pytorch as smp
 from datasets import DatasetLSHDIB
 from losses import gray_mse, rgb_bcel
 from tqdm import tqdm
+import argparse
 
 
 def run(input_path, weigths_path):
@@ -43,19 +44,22 @@ def run(input_path, weigths_path):
     vutils.save_image(out_img,output_file+'_output.jpg',normalize=False)
 
 
-if __name__ == "__main__":
+parser = argparse.ArgumentParser(description = "List of various parameters for experiments")
 
-    # device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
-    device = torch.device('cpu')
-    print("Device used : ",device)
+parser.add_argument("device", type=str, help="GPU number")
+parser.add_argument("img", type=str, help="Path to input document image")
+parser.add_argument("wtpth", type=str, help="Path to trained unet segmentation file")
 
-    cudnn.benchmark = True
-    manualSeed = 43
-    random.seed(manualSeed)
-    torch.manual_seed(manualSeed)
+args = parser.parse_args()
 
-    # FOR SYSTEM
-    input_path = 'input_3.jpg' 
-    weigths_path = 'unet_best_weights.pth'
+if torch.cuda.is_available() and (args.device != "cpu"):
+  device = torch.device(args.device)
+  torch.cuda.set_device(device)
+else:
+  device = torch.device("cpu")
+print("Device used : ",device)
 
-    run(input_path, weigths_path)
+input_path = args.img 
+weigths_path = args.wtpth
+
+run(input_path, weigths_path)
