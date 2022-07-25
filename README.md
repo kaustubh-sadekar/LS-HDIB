@@ -19,3 +19,7 @@ python run.py cpu input_2.jpg unet_best_weights.pth
 The output file will be saved as `<INPUT_FILE_NAME>_output.jpg`. For this specific example it will be input_2_output.jpg
 
 *For better understanding of the input arguments type `python run.py -h`*
+
+
+## Coming Soon
+Easy to use google colab notebook
