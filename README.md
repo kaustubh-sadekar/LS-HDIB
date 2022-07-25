@@ -25,5 +25,6 @@ The output file will be saved as `<INPUT_FILE_NAME>_output.jpg`. For this specif
 Easy to use google colab notebook
 
 
-## References
-We used [segmentation_models_pytorch library](https://github.com/qubvel/segmentation_models.pytorch) for all the segmentation models.
+NOTE:
+
+We used [segmentation_models_pytorch library](https://github.com/qubvel/segmentation_models.pytorch) for all the segmentation models. It has implementations for several segmentation models.
