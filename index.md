@@ -5,7 +5,7 @@ layout: default
 # LS-HDIB: A Large Scale Handwritten Document Image Binarization Dataset
 <a href="https://kaustubh-sadekar.github.io/" target="_blank">Kaustubh Sadekar</a>, <a href="https://www.linkedin.com/in/ashish-tiwari-82a392135/" target="_blank">Ashish Tiwari</a>, <a href="https://prajwalsingh.github.io/" target="_blank">Prajwal Singh</a>, <a href="https://people.iitgn.ac.in/~shanmuga/index.html" target="_blank">Shanmuganathan Raman</a>
 
-Preprint available on <a href="https://arxiv.org/abs/2101.11674" target="_blank">arxiv</a>. **Accepted in ICPR 2022**.
+**Accepted in ICPR 2022**.
 
 
 <a href="https://arxiv.org/abs/2101.11674" target="_blank">Arxiv</a> link / <a href="https://github.com/kaustubh-sadekar/LS-HDIB" target="_blank">Code</a> link.
