@@ -7,6 +7,9 @@ layout: default
 
 Preprint available on <a href="https://arxiv.org/abs/2101.11674" target="_blank">arxiv</a>. **Accepted in ICPR 2022**.
 
+
+<a href="https://arxiv.org/abs/2101.11674" target="_blank">Arxiv</a> link / <a href="https://github.com/kaustubh-sadekar/LS-HDIB" target="_blank">Code</a> link.
+
 # Abstract
 
 Handwritten document image binarization is challenging due to high variability in the written content and complex background attributes such as page style, paper quality, stains, shadow gradients, and non-uniform illumination. While the traditional thresholding methods do not effectively generalize on such challenging real-world scenarios, deep learning-based methods have performed relatively well when provided with sufficient training data. However, the existing datasets are limited in size and diversity. This work proposes LS-HDIB - a large-scale handwritten document image binarization dataset containing over a million document images that span numerous real-world scenarios. Additionally, we introduce a novel technique that uses a combination of adaptive thresholding and seamless cloning methods to create the dataset with accurate ground truths. Through an extensive quantitative and qualitative evaluation over eight different segmentation models, we demonstrate the enhancement in the performance of the deep networks when trained on the LS-HDIB dataset and tested on unseen images.
